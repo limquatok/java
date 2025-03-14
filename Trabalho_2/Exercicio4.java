@@ -2,8 +2,7 @@ import java.util.Scanner;
 
 public class Exercicio4 {
 
-    public static void main(String[] args){
-
+    static void racao(){
         Scanner lerdados = new Scanner(System.in);
 
         double grama_gato1;
@@ -38,6 +37,10 @@ public class Exercicio4 {
         System.out.println("Em 5 dias os 2 gatos vão consumir " + quant_racao_5_dias + " Gramas");
         System.out.println("No final dos 5 dias o peso do saco de ração será: " + peso_final_gato_1_e_2_kg + " Kg");
         
+    }
+    public static void main(String[] args){
+
+        racao();
     }
     
 }

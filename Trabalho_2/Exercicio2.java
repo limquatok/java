@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class Exercicio2 {
 
-    public static void main(String[] args){
 
+    static void informe_salario(){
         Scanner lerdados = new Scanner(System.in);
         double salario;
         double percentual;
@@ -23,6 +23,13 @@ public class Exercicio2 {
         
 
         System.out.println(salario_final);
+    }
+
+
+    public static void main(String[] args){
+
+        informe_salario();
+        
 
     }
 }

@@ -2,8 +2,7 @@ import java.util.Scanner;
 
 public class Exercicio3 {
 
-    public static void main(String[] args){
-
+    static void nascimento(){
         Scanner lerdados = new Scanner(System.in);
 
         int ano_nascimento;
@@ -25,6 +24,11 @@ public class Exercicio3 {
         System.out.println("iadade em Dias: " + idade_dias);
         System.out.println("Idade em meses: " + idade_em_meses);
         System.out.println("idade em semanas: " + idade_em_semanas);
+    }
+
+    public static void main(String[] args){
+
+        nascimento();
 
     }
     
